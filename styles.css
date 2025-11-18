@@ -1,0 +1,70 @@
+/* Estilos personalizados para el sistema */
+.sidebar-item:hover {
+    background-color: #1e40af;
+    transition: all 0.3s ease;
+}
+
+.sidebar-item.active {
+    background-color: #1e40af;
+    border-left: 4px solid #fbbf24;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-secondary {
+    background-color: #6b7280;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-danger {
+    background-color: #dc2626;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background-color: #16a34a;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.table-row:hover {
+    background-color: #f9fafb;
+}
+
+.hidden {
+    display: none;
+}
+
+.login-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.card-shadow {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
